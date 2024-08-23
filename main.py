@@ -24,6 +24,9 @@ def obtenerClasificacion(path):
     probability = prediction[0]['score']
     return class_label, probability
 
+@app.get("/hola-mundo")
+async def hola_mundo():
+    return {"mensaje": "Hola Mundo"}
 
 @app.post("/clasificarImagen")
 async def clasificarImagen(image: UploadFile = File(...)):
