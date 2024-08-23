@@ -1,0 +1,7 @@
+fastapi~=0.112.1
+starlette~=0.38.2
+transformers~=4.44.2
+uvicorn~=0.23.2
+torch~=2.1.0
+Pillow~=10.0.0
+python-multipart~=0.0.6
